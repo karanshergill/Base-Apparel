@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Josefin Sans Variable';
+        font-style: normal;
+        font-weight: 100 700;
+        font-display: auto;
+        src: url(https://cdn.jsdelivr.net/fontsource/fonts/josefin-sans:vf@latest/latin-wght-normal.woff2) format('woff2');
+    }
+}
