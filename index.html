@@ -36,11 +36,13 @@
         announcements and our launch deals.</p>
 
       <div class="relative flex">
-        <input type="email" placeholder="Email Address"
+        <input type="email" placeholder="Email Address" id="email-input"
           class="text-xs font-light text-red-desaturated border rounded-full py-2 px-6 w-full">
+        <img src="/icon-error.svg" alt="error" class="hidden" id="error-icon">
         <button class="absolute right-0 top-0"><img src="/icon-arrow.svg" alt="button"
-            class="bg-gradient-2 rounded-full px-6 py-2"></button>
+            class="bg-gradient-2 rounded-full px-6 py-2" id="submit-button"></button>
       </div>
+      <p class="hidden text-xs" id="error-text">Please provide a valid email</p>
     </div>
 
     <div class="desktop:col-span-2 desktop:row-span-4 desktop:col-start-3 desktop:row-start-1 place-self-center">
