@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "bunx -x vite",
-    "build": "bunx -x vite build",
-    "preview": "bunx -x vite preview"
+    "dev": "bunx --bun vite",
+    "build": "bunx --bun vite build",
+    "preview": "bunx --bun vite preview"
   },
   "devDependencies": {
     "vite": "^5.4.1"
